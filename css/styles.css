@@ -1,0 +1,11 @@
+body {
+  background-color: lightblue;
+}
+
+.btn  {
+  border-color: white;
+  background-color: grey;
+  color: white;
+  font-size: 12px;
+
+}
