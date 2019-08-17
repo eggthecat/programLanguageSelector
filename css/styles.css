@@ -2,14 +2,14 @@ body {
   background-color: lightblue;
 }
 
-.btn  {
+button  {
   border-color: white;
   background-color: grey;
   color: white;
   font-size: 12px;
 }
 
-#c  {
+#csharp {
   show: hide;
 }
 
