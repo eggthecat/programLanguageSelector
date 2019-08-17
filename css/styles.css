@@ -9,6 +9,10 @@ button  {
   font-size: 12px;
 }
 
+#formOne {
+  width: 300px;
+}
+/* program options */
 #csharp {
   show: hide;
 }
@@ -24,7 +28,19 @@ button  {
 #swift {
   show: hide;
 }
+/* location options */
+#or {
+  show: hide;
+}
 
-#formOne {
-  width: 300px;
+#wa {
+  show: hide;
+}
+
+#id{
+  show: hide;
+}
+
+#ut {
+  show: hide;
 }
