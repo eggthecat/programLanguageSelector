@@ -7,5 +7,20 @@ body {
   background-color: grey;
   color: white;
   font-size: 12px;
+}
 
+#c  {
+  show: hide;
+}
+
+#go {
+  show: hide;
+}
+
+#python {
+  show: hide;
+}
+
+#swift {
+  show: hide;
 }
