@@ -8,13 +8,19 @@ $(document).ready(function(){
     event.preventDefault()
     $(".userResult").hide()
 
-    
 
-    var 1 = ($("#1").val());
-    var 2 = ($("#2").val());
-    var 3 = ($("#3").val());
-    var 4 = ($("#4").val());
-    var 5 = ($("#5").val());
 
+    var interest = parseInt($("#interest").val());
+    var program = text($("#program").val());
+    var time = text($("#time").val());
+    var internship = text($("#internship").val());
+    var location = parseInt($("#location").val());
+
+    var interestScore = interest;
+    var locationScore = location;
+
+    var programScore = program;
+    var timeScore = time;
+    var intershipScore = time;
   });
 });
