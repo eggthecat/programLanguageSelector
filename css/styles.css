@@ -36,6 +36,18 @@ button  {
 #swift {
   display: none;
 }
+/* time result for jumbotron */
+#noTimeResponse {
+  display: none;
+}
+
+#dayResponse {
+  display: none;
+}
+
+#nightResponse {
+  display: none;
+}
 /* location result for jumboton */
 #or {
   display: none;
