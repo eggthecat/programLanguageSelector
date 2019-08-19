@@ -74,6 +74,10 @@ button  {
   display: none;
 }
 /* location result for jumboton */
+#noLocationResponse{
+  display: none;
+}
+
 #or {
   display: none;
 }
