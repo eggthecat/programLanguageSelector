@@ -12,6 +12,7 @@
     <div class="container">
       <p id="header">June</p>
       <form id="formOne">
+<!-- Potential student questionaire questions -->
         <p id="questionaireQuestion">Are you interested in developing software?</p>
         <select class="form-control field" id="interest">
           <option value="0">Select Here:</option>
@@ -49,9 +50,15 @@
           <button type="submit"><strong>submit</strong></button>
       </form>
       <button type="try" onclick="reload()"><strong>reset</strong></button>
+<!-- Response to interest question -->
       <div class="jumbotron">
+        <div class="userResult" id="congratulations">
+          <h3>Congratulations</h3>
+          <p>This program could be a useful tool in your path towards becoming a software developer.</p>
+        </div>
+<!-- Responses to program question -->
         <div class="userResult" id="cSharp">
-          <h3>You will have C# and JavaScript</h3>
+          <h3>You will have C#, React, and JavaScript</h3>
           <p>C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines. It was developed around 2000 by Microsoft within its.NET initiative and later approved as a standard by Ecma and ISO. C# is one of the programming languages designed for the Common Language Infrastructure.</p>
         </div>
         <div class="userResult" id="go">
@@ -66,6 +73,20 @@
           <h3>You will have Swift, React, and JavaScript</h3>
           <p>Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, and Linux. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large body of existing Objective-C code written for Apple products.</p>
         </div>
+<!-- Responses to time question -->
+        <div class="userResult" id="noTimeResponse">
+          <h3>Unfortunately</h3>
+          <p>It seems that you have missed answering whether you would like to attend night or day classes.  Please retake the quiz by pressing the "reset" button. </p>
+        </div>
+        <div class="userResult" id="dayResponse">
+          <h3>Hooray!</h3>
+          <p>The day course is still accepting applications which is great news for you!</p>
+        </div>
+        <div class="userResult" id="nightResponse">
+          <h3>Unfortunately</h3>
+          <p>The night course has no more available slots, but our day course is accepting more students.</p>
+        </div>
+<!-- Responses to location question -->
         <div class="userResult" id="or">
           <h3>Bend is it!</h3>
           <p>Bend is a city in, and the county seat of, Deschutes County, Oregon, United States. It is the principal city of the Bend, Oregon, Metropolitan Statistical Area. Bend is Central Oregon's largest city, and despite its modest size, is the de facto metropolis of the region, owing to the low population density of that area.</p>

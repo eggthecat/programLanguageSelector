@@ -48,6 +48,8 @@ $(document).ready(function(){
       $("#python").hide();
       $("#swift").show();
     }
+
+
   });
 });
 
