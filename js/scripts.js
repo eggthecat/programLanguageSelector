@@ -47,8 +47,21 @@ $(document).ready(function(){
       $("#go").hide();
       $("#python").hide();
       $("#swift").show();
-    }
+    };
 
+    if (time === 0) {
+      $("#noTimeResponse").show();
+      $("#dayResponse").hide();
+      $("#nightResponse").hide();
+    } else if (time === 1) {
+      $("#noTimeResponse").hide();
+      $("#dayResponse").show();
+      $("#nightResponse").hide();
+    } else if (time === 2) {
+      $("#noTimeResponse").hide();
+      $("#dayResponse").hide();
+      $("#nightResponse").show();
+    }
 
   });
 });
