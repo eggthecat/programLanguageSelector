@@ -1,5 +1,12 @@
 body {
   background-color: lightblue;
+  font-family: 'Righteous', cursive;
+}
+
+#header {
+  font-size: 70px;
+  position: fixed;
+  text-align: center;
 }
 
 button  {
