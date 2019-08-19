@@ -50,13 +50,25 @@
           <button type="submit"><strong>submit</strong></button>
       </form>
       <button type="try" onclick="reload()"><strong>reset</strong></button>
-<!-- Response to interest question -->
       <div class="jumbotron">
-        <div class="userResult" id="congratulations">
+<!-- Response to interest question -->
+        <div class="userResult" id="interestUnanswered">
+          <h3>Hold up!</h3>
+          <p>It appears you forgot to make a selection for your interest develoing software!</p>
+        </div>
+        <div class="userResult" id="interestNo">
+          <h3>Are you sure?</h3>
+          <p>Have you discussed this topic with a software developer?</p>
+        </div>
+        <div class="userResult" id="interestYes">
           <h3>Congratulations</h3>
           <p>This program could be a useful tool in your path towards becoming a software developer.</p>
         </div>
 <!-- Responses to program question -->
+        <div class="userResult" id="noProgramResponse">
+          <h3>Uh Oh!</h3>
+          <p>Please pick a platform you are interested in.</p>
+        </div>
         <div class="userResult" id="cSharp">
           <h3>You will have C#, React, and JavaScript</h3>
           <p>C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines. It was developed around 2000 by Microsoft within its.NET initiative and later approved as a standard by Ecma and ISO. C# is one of the programming languages designed for the Common Language Infrastructure.</p>
@@ -75,8 +87,8 @@
         </div>
 <!-- Responses to time question -->
         <div class="userResult" id="noTimeResponse">
-          <h3>Unfortunately</h3>
-          <p>It seems that you have missed answering whether you would like to attend night or day classes.  Please retake the quiz by pressing the "reset" button. </p>
+          <h3>Whoa!</h3>
+          <p>It seems that you have missed answering whether you would like to attend night or day classes.</p>
         </div>
         <div class="userResult" id="dayResponse">
           <h3>Hooray!</h3>
