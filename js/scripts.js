@@ -15,34 +15,45 @@ $(document).ready(function(){
     var location = parseInt($("#location").val());
 
     if (interest === 0) {
-      alert ("Please indicate whether you are interested in becoming a software developer!");
-      $(".userResult").hide();
+      $("#interestUnanswered").show();
+      $("#interestNo").hide();
+      $("#interestYes").hide();
     } else if (interest === 1) {
-      alert ("This quiz is for individuals interested in software development.");
-      $("#.userResult").hide();
+      $("#interestUnanswered").hide();
+      $("#interestNo").show();
+      $("#interestYes").hide();
     } else if (interest === 2) {
-      $("#congratulations").show();
+      $("#interestUnanswered").hide();
+      $("#interestNo").hide();
+      $("#interestYes").show();
     };
 
     if (program === 0) {
-      alert ("Please indicate what platform interests you.");
-      $(".userResult").hide();
+      $("#noProgramResponse").show();
+      $("#cSharp").hide();
+      $("#go").hide();
+      $("#python").hide();
+      $("#swift").hide();
     } else if (program === 1) {
+      $("noProgramResponse").hide();
       $("#cSharp").show();
       $("#go").hide();
       $("#python").hide();
       $("#swift").hide();
     } else if (program === 2) {
+      $("noProgramResponse").hide();
       $("#cSharp").hide();
       $("#go").show();
       $("#python").hide();
       $("#swift").hide();
     } else if (program === 3) {
+      $("noProgramResponse").hide();
       $("#cSharp").hide();
       $("#go").hide();
       $("#python").show();
       $("#swift").hide();
     } else if (program === 4) {
+      $("noProgramResponse").hide();
       $("#cSharp").hide();
       $("#go").hide();
       $("#python").hide();
