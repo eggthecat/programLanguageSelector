@@ -74,6 +74,52 @@ $(document).ready(function(){
       $("#nightResponse").show();
     }
 
+    if (internship === 0){
+      $("#noInternshipResponse").show();
+      $("#noInternship").hide();
+      $("#yesInternship").hide();
+    } else if (internship === 1){
+      $("#noInternshipResponse").hide();
+      $("#noInternship").show();
+      $("#yesInternship").hide();
+    } else if (internship === 2){
+      $("#noInternshipResponse").hide();
+      $("#noInternship").hide();
+      $("#yesInternship").show();
+    }
+
+    if (){
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+    } else if (){
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+    } else if (){
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+    } else if (){
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+    } else if (){
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+      $("#").();
+    }
+
   });
 });
 
