@@ -88,55 +88,37 @@ $(document).ready(function(){
       $("#yesInternship").show();
     }
 
-    if (){
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-    } else if (){
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-    } else if (){
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-    } else if (){
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-    } else if (){
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
-      $("#").();
+    if (location === 0){
+      $("#noLocationResponse").show();
+      $("#or").hide();
+      $("#wa").hide();
+      $("#id").hide();
+      $("#ut").hide();
+    } else if (location === 1){
+      $("#noLocationResponse").hide();
+      $("#or").show();
+      $("#wa").hide();
+      $("#id").hide();
+      $("#ut").hide();
+    } else if (location === 2){
+      $("#noLocationResponse").hide();
+      $("#or").hide();
+      $("#wa").show();
+      $("#id").hide();
+      $("#ut").hide();
+    } else if (location === 3){
+      $("#noLocationResponse").hide();
+      $("#or").hide();
+      $("#wa").hide();
+      $("#id").show();
+      $("#ut").hide();
+    } else if (location === 4){
+      $("#noLocationResponse").hide();
+      $("#or").hide();
+      $("#wa").hide();
+      $("#id").hide();
+      $("#ut").show();
     }
 
   });
 });
-
-    // var interestScore = interest;
-    // var programScore = program;
-    // var timeScore = time;
-    // var internshipScore = internship;
-    // var locationScore = location;
-
-    // function loop() {
-    //   var answer;
-    //   for(var i = 0; i < answer; i++ ) {
-    //     if(i==="1") {
-    //       //action here
-    //     } else if (i==="2"){
-    //       //action here
-    //     }
-    //   }
-    // }
-    //
