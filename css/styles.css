@@ -21,6 +21,10 @@ button  {
   display: none;
 }
 /* program result for jumboton */
+#noProgramResponse {
+  display: none;
+}
+
 #cSharp {
   display: none;
 }
