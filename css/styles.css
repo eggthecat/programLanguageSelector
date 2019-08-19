@@ -17,9 +17,18 @@ button  {
   width: 300px;
 }
 /* interest result for jumboton */
-#congratulations {
+#interestUnanswered {
   display: none;
 }
+
+#interestNo {
+  display: none;
+}
+
+#interestYes {
+  display: none;
+}
+
 /* program result for jumboton */
 #noProgramResponse {
   display: none;
