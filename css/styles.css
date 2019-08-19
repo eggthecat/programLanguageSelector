@@ -13,34 +13,34 @@ button  {
   width: 300px;
 }
 /* program options */
-#csharp {
-  show: hide;
+#cSharp {
+  display: none;
 }
 
 #go {
-  show: hide;
+  display: none;
 }
 
 #python {
-  show: hide;
+  display: none;
 }
 
 #swift {
-  show: hide;
+  display: none;
 }
 /* location options */
 #or {
-  show: hide;
+  display: none;
 }
 
 #wa {
-  show: hide;
+  display: none;
 }
 
 #id{
-  show: hide;
+  display: none;
 }
 
 #ut {
-  show: hide;
+  display: none;
 }
