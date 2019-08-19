@@ -1,4 +1,4 @@
-# _{JUNE: A questionnaire for potential software development students}_
+# _JUNE: A questionnaire for potential software development students_
 
 #### _Epicodus individual project #2: Establish understanding of JQuery and some JavaScript, {Aug 2019}_
 
@@ -6,11 +6,11 @@
 
 ## Description
 
-_This is a project required by the Epicodus curriculum for their introduction course.  The main purpose is to establish an understanding of jQuery and JavaScript if/else statements.  The theme of this project is a questionnaire that helps a client decide which software development course to attend. _
+_This is a project required by the Epicodus curriculum for their introduction course.  The main purpose is to establish an understanding of jQuery and JavaScript if/else statements.  The theme of this project is a questionnaire that helps a client decide which software development course to attend._
 
 ## Setup/Installation Requirements
 
-* _Clone repository and launch
+*Clone repository and launch
 
 ## Known Bugs
 
