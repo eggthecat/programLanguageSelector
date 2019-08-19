@@ -9,10 +9,18 @@ button  {
   font-size: 12px;
 }
 
+.jumbotron {
+  background-color: lightblue;
+}
+
 #formOne {
   width: 300px;
 }
-/* program options */
+/* interest result for jumboton */
+#congratulations {
+  display: none;
+}
+/* program result for jumboton */
 #cSharp {
   display: none;
 }
@@ -28,7 +36,7 @@ button  {
 #swift {
   display: none;
 }
-/* location options */
+/* location result for jumboton */
 #or {
   display: none;
 }
