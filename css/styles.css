@@ -61,6 +61,18 @@ button  {
 #nightResponse {
   display: none;
 }
+/* internship result for jumbotron */
+#noInternshipResponse {
+  display: none;
+}
+
+#noInternship {
+  display: none;
+}
+
+#yesInternship {
+  display: none;
+}
 /* location result for jumboton */
 #or {
   display: none;
