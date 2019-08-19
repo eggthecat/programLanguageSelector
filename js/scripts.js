@@ -14,14 +14,32 @@ $(document).ready(function(){
     var internship = parseInt($("#internship").val());
     var location = parseInt($("#location").val());
 
-    var interestScore = interest;
-    var programScore = program;
-    var timeScore = time;
-    var internshipScore = internship;
-    var locationScore = location;
-
-    if (interestScore > 1) {
-      $("")
+    if (interest = 0) {
+      alert ("Please indicate whether you are interested in becoming a software developer!");
+      $("#.userResult").hide();
+    } else if (interest = 1) {
+      alert ("This quiz is for individuals interested in software development.");
+      $("#.userResult").hide();
+    } else (interest = 2) {
     }
+
+    // var interestScore = interest;
+    // var programScore = program;
+    // var timeScore = time;
+    // var internshipScore = internship;
+    // var locationScore = location;
+
+    // function loop() {
+    //   var answer;
+    //   for(var i = 0; i < answer; i++ ) {
+    //     if(i==="1") {
+    //       //action here
+    //     } else if (i==="2"){
+    //       //action here
+    //     }
+    //   }
+    // }
+    //
+
   });
 });
